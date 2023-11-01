@@ -1,7 +1,7 @@
 databases:
-  - name: hello-world-RoR
-    databaseName: hello-world-RoR
-    user: hello-world-RoR
+  - name: mysite
+    databaseName: mysite
+    user: mysite
 
 services:
   - type: web
