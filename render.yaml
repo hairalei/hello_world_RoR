@@ -5,7 +5,7 @@ databases:
 
 services:
   - type: web
-    name: helloworldRoR
+    name: hello_world_RoR
     env: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec rails s"
@@ -13,7 +13,7 @@ services:
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: helloworldRoR
+          name: hello_world_RoR
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
