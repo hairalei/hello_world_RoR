@@ -17,7 +17,7 @@ services:
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
-  - type: postgresql
+  - type: redis
     name: hello-app
     ipAllowList: []
     plan: free
